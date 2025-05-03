@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 # Study Material Analyzer
 
 A web application that analyzes study materials (PDFs, images, and text files) to extract important topics and find relevant YouTube videos for learning.
@@ -69,6 +69,6 @@ python app.py
 ## License
 
 MIT License 
-=======
+
 # LinkedLink
->>>>>>> a130c078faeed615036009f751d09469cb4c7ad3
+a130c078faeed615036009f751d09469cb4c7ad3
