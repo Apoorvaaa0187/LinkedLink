@@ -1,0 +1,32 @@
+/* Custom styles */
+.border-dashed {
+    transition: border-color 0.3s ease;
+}
+
+.border-dashed:hover {
+    border-color: #6366f1;
+}
+
+/* Loading animation */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Video card hover effect */
+.video-card {
+    transition: transform 0.2s ease;
+}
+
+.video-card:hover {
+    transform: translateY(-2px);
+} 
